@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Anaeze"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "pg": "^7.2.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.7.3"
+  },
+  "description": "Backend for the TimePower application that enables user keep up with tasks using remainder",
+  "name": "TimePower Server",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www.js"
+  },
+  "version": "0.0.0"
+}
