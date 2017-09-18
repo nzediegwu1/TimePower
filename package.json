@@ -12,10 +12,19 @@
     "sequelize": "^4.7.3"
   },
   "description": "Backend for the TimePower application that enables user keep up with tasks using remainder",
-  "name": "TimePower Server",
+  "name": "timepower-server",
   "private": true,
   "scripts": {
+    "babel": "babel app.js -o public/javascripts/app_convert.js",
     "start": "node ./bin/www.js"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.6.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
 }
